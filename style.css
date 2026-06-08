@@ -1,0 +1,80 @@
+/* Warna latar belakang seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Kelabu cair supaya kandungan putih nampak jelas */
+    color: #333;
+}
+
+/* Reka bentuk kotak tajuk atas dan footer bawah (Merah Liverpool) */
+header, footer {
+    background-color: #C8102E; /* Kod merah rasmi Liverpool FC */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* --- Hiasan Logo --- */
+.logo-kecik {
+    width: 60px; /* Saiz logo comel-comel */
+    height: auto; /* Kekalkan nisbah gambar */
+    display: block; /* Supaya margin auto berfungsi di tengah */
+    margin: 0 auto 10px auto; /* Letak logo kat tengah */
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+/* Reka bentuk menu navigasi (Putih) */
+nav {
+    background-color: #ffffff; /* Latar belakang menu putih */
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 2px solid #C8102E; /* Garis bawah merah */
+}
+
+/* Reka bentuk tulisan pautan dalam menu */
+nav a {
+    color: #C8102E; /* Warna tulisan pautan merah */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Kesan apabila tetikus diletakkan di atas pautan menu */
+nav a:hover {
+    color: #ffd700; /* Warna kuning emas */
+}
+
+/* Reka bentuk kotak kandungan tengah */
+main {
+    background: white;
+    padding: 30px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Reka bentuk tajuk-tajuk dalam kandungan */
+h2, h3 {
+    color: #C8102E;
+}
+
+/* Reka bentuk butang */
+button {
+    background-color: #ffd700; /* Kuning emas */
+    color: #C8102E; /* Merah */
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e6c200; /* Warna kuning emas gelap sikit */
+}
